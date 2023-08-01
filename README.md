@@ -20,6 +20,8 @@ Below is a graphic representation of this type of architecture
 The results of the studies carried out can be seen in the `development` file in the `notebooks` folder.
 ## Structure
 
+Hola! Soy Pablo. Espero que os esté gustando el videotutorial...
+
 ```
 │
 ├── README.md                               # This file                             
