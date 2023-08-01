@@ -10,7 +10,7 @@ import pandas as pd
 import os
 from datetime import datetime
 from beartype import beartype
-from src.majorel._utils import StrOrNone, Error
+from src._utils import StrOrNone, Error
 from pandas.api.types import is_numeric_dtype
 import plotly.express as px
 

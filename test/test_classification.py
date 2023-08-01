@@ -8,7 +8,7 @@
 
 import pandas as pd
 import unittest
-from src.majorel.model.model_task import ClassificationTask
+from src.model.model_task import ClassificationTask
 
 # import dataset
 datos = pd.read_csv("../data/political_social_media.csv")
