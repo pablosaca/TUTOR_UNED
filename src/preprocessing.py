@@ -344,7 +344,7 @@ class Preprocessing:
                              "Please, indicate `lower` and `points` as True")
 
         stop_words = set(stopwords.words('english'))
-        nlp = spacy.load('en_core_web_md')
+        nlp = spacy.load('english_core_web_md')
 
         pattern = re.compile('[{}]'.format(re.escape(string.punctuation)))
 
