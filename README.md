@@ -25,12 +25,11 @@ The results of the studies carried out can be seen in the `development` file in 
 ├── README.md                               # This file                             
 │                              
 ├── src                                     # source code
-|   └── majorel 
-│       └── _utils                          # Utils
-│       └── graphs                          # Visualization and plots    
-│       └── preprocessing                   # Text Preprocessing                      
-│       └── model
-│           └── model_task                  # Sentiment Analysis model and Zero-Shot Class. (Topic Prediction)
+│   └── _utils                              # Utils
+│   └── graphs                              # Visualization and plots    
+│   └── preprocessing                       # Text Preprocessing                      
+│   └── model                              
+│   └── model_task                          # Sentiment Analysis model and Zero-Shot Class. (Topic Prediction)
 │
 ├── test                                    # unit testing   
 │    └── test_preprocessing                 # unit tests for preprocessing
