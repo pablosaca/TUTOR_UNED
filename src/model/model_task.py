@@ -10,7 +10,7 @@ import pandas as pd
 import logging
 from beartype import beartype
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
-from src.majorel._utils import IntOrNone, ListOrNone
+from src._utils import IntOrNone, ListOrNone
 
 logger = logging.getLogger(__name__)
 

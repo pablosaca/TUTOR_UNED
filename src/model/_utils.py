@@ -1,6 +1,6 @@
 import pandas as pd
 from beartype import beartype
-from src.majorel._utils import IntOrNone
+from src._utils import IntOrNone
 
 
 @beartype

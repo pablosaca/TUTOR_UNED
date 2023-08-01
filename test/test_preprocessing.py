@@ -11,7 +11,7 @@ import unittest
 import spacy
 from nltk.corpus import stopwords
 import nltk
-from src.majorel.preprocessing import Preprocessing
+from src.preprocessing import Preprocessing
 nltk.download('stopwords')
 
 
