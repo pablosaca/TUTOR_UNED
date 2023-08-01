@@ -56,11 +56,11 @@ The results of the studies carried out can be seen in the `development` file in 
 
 Create conda environment
 ```
-conda create --name majorel python=3.9
+conda create --name venv python=3.9
 ```
 Activate conda environment
 ```
-conda activate majorel 
+conda activate venv 
 ```
 
 ## Dependencies
@@ -95,6 +95,12 @@ spacy==3.4
 sentence_transformers==2.2.2
 ipykernel==6.15.2
 jupyterlab==3.4.6
+```
+
+You also need to download the "en_core_web_md" model. To do this use: 
+
+```
+python -m sacy download en_core_web_m
 ```
 
 # Features
