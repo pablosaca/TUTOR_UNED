@@ -1,4 +1,3 @@
-<img src="./docs/assets/images/foto.jpg" width=165 height=165 align="right">
 
 # NLP Project
 
